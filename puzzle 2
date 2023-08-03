@@ -1,0 +1,14 @@
+"""def high(x):
+    return x*x - ((x * 7) /2)
+x = int(input("input x"))
+print(high(5))"""
+
+def hidden_function(x,y=5):
+    x = x * 5 + y
+    print(x)
+hidden_function(5, 10)
+hidden_function(5)
+hidden_function(2, 0)
+hidden_function(10,0)
+hidden_function()
+

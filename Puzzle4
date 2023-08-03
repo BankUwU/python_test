@@ -1,0 +1,9 @@
+min_score = 25 
+x = int(input("Enter a number: "))
+if x < min_score:
+  if input("Continue? (Y/N)") == "Y":
+    print("Sorry, you failed.")
+  else:print("Goodbye!")
+else: print("Congratulations!")
+
+
